@@ -20,7 +20,7 @@ export default function Home() {
       {/* Program Details Section */}
       <section id="program" className="section bg-white">
         <div className="container-custom">
-          <div className="text-center mb-16">
+          <div className="mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               プログラム<span className="text-gradient">詳細</span>
             </h2>
@@ -62,7 +62,7 @@ export default function Home() {
       {/* Learning Section */}
       <section id="learning" className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-16">
+          <div className="mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               現地校での<span className="text-gradient">学び</span>
             </h2>
@@ -114,7 +114,7 @@ export default function Home() {
       {/* Homestay Section */}
       <section id="homestay" className="section bg-white">
         <div className="container-custom">
-          <div className="text-center mb-16">
+          <div className="mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               ホームステイ<span className="text-gradient">体験</span>
             </h2>
@@ -170,7 +170,7 @@ export default function Home() {
       {/* Support Section */}
       <section id="support" className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-16">
+          <div className="mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               安心の<span className="text-gradient">サポート体制</span>
             </h2>
