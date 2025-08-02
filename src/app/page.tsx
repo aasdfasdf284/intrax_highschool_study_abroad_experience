@@ -13,12 +13,12 @@ const ContactForm = dynamic(() => import('@/components/ContactForm'), {
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen" role="main">
       <HeroSection />
       <HighlightSection />
       
       {/* Program Details Section */}
-      <section id="program" className="section bg-white">
+      <section id="program" className="section bg-white" aria-label="プログラム詳細">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -60,7 +60,7 @@ export default function Home() {
       </section>
 
       {/* Learning Section */}
-      <section id="learning" className="section bg-gray-50">
+      <section id="learning" className="section bg-gray-50" aria-label="現地校での学び">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -112,7 +112,7 @@ export default function Home() {
       </section>
 
       {/* Homestay Section */}
-      <section id="homestay" className="section bg-white">
+      <section id="homestay" className="section bg-white" aria-label="ホームステイ体験">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
@@ -168,7 +168,7 @@ export default function Home() {
       </section>
 
       {/* Support Section */}
-      <section id="support" className="section bg-gray-50">
+      <section id="support" className="section bg-gray-50" aria-label="安心のサポート体制">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
