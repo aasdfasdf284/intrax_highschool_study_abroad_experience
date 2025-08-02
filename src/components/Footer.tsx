@@ -49,11 +49,11 @@ const quickLinks = [
 
 const programs = [
   { name: "高校交換留学", href: "https://www.intraxjp.com/ayusa/" },
-  { name: "夏キャンプ", href: "https://www.intraxjp.com/summercamp/" },
   { name: "春キャンプ", href: "https://www.intraxjp.com/springcamp/" },
-  { name: "韓国文化体験プログラム", href: "https://www.intraxjp.com/korea-camp/" },
-  { name: "Summer Camp in Japan", href: "https://www.intraxjp.com/ayusa/summer/" },
-  { name: "Winter Camp in Japan", href: "https://www.intraxjp.com/ayusa/wintercamp/" }
+  { name: "夏キャンプ", href: "https://www.intraxjp.com/summercamp/" },
+  { name: "秋キャンプ", href: "https://www.intraxjp.com/ayusa/fallcamp/" },
+  { name: "冬キャンプ", href: "https://www.intraxjp.com/ayusa/wintercamp/" },
+  { name: "韓国文化体験プログラム", href: "https://www.intraxjp.com/korea-camp/" }
 ]
 
 export default function Footer() {
