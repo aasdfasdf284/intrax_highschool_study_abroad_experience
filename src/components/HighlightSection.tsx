@@ -78,7 +78,7 @@ export default function HighlightSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="mb-16"
+          className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             プログラム<span className="text-gradient">ハイライト</span>
@@ -102,7 +102,7 @@ export default function HighlightSection() {
                 rotate: index % 2 === 0 ? 2 : -2,
                 transition: { duration: 0.3 }
               }}
-              className="card p-8 text-center relative overflow-hidden group"
+              className="card p-8 relative overflow-hidden group"
             >
               {/* Background Gradient on Hover */}
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -119,11 +119,11 @@ export default function HighlightSection() {
                 {highlight.icon}
               </motion.div>
 
-              <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors duration-300">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors duration-300 text-center">
                 {highlight.title}
               </h3>
               
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed text-left">
                 {highlight.description}
               </p>
 
